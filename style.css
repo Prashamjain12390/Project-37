@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue');
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+
+}
+canvas{
+  border: 2.5px solid black;
+ position: absolute;
+ right:0;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ z-index: -10;
+ }
+span{
+  font-family: "Comic Neue";
+  font-size: 20px;
+  font-weight: bold;
+}
+h2{
+  font-size: 30pt;
+  font-family: cursive;
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  position: absolute;
+  top: 0;bottom:400px;
+  right: 0;left: 0;
+  width: fit-content;
+  height: fit-content;
+  margin:auto;
+}
+.q{
+   z-index: 10000;
+   font-family: 'Comic Neue';
+   font-size: 20.524pt;
+ 
+}
+input[type="text"]{
+  border: 1px solid #ccc;
+  outline:none;
+  padding: 10px 10px;
+  font-family: 'Comic Neue',sans-serif;
+  font-weight: bold;
+  width:200px;
+  font-size: 12pt;
+  caret-color: rgb(25, 146, 251);
+}
+input[type="number"]{
+ border: 1px solid #ccc;
+  outline:none;
+  padding: 10px 10px;
+  font-family: 'Comic Neue',sans-serif;
+  font-weight: bold;
+  width:200px;
+  font-size: 12pt;
+  caret-color: rgb(25, 146, 251);
+
+}
+button{cursor:pointer}
